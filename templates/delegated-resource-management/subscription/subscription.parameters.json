@@ -3,30 +3,29 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Relecloud Managed Services"
+            "value": "Absolute Networks Managed Azure"
         },
         "mspOfferDescription": {
-            "value": "Relecloud Managed Services"
+            "value": "Absolute Networks Managed Azure"
         },
         "managedByTenantId": {
-            "value": "<insert managing tenant id>"
+            "value": "cfb9654d-0059-4df0-a24c-01779fcc22f4"
         },
         "authorizations": {
             "value": [
                 { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
+                    "principalId": "cd5e7862-8679-4ae0-a5dc-e78124eae169", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Provider Automation Account" 
                 }, 
                 { 
-                    "principalId": "00000000-0000-0000-0000-000000000000", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
-                    
+                    "principalId": "c19720ed-bbb3-497f-bb0b-f71c703afc22",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Lighthouse Subscription Administrators"
                 },
                 {
-                    "principalId": "00000000-0000-0000-0000-000000000000",
-                    "principalIdDisplayName": "PIM_Group",
+                    "principalId": "c75193ba-4587-4da2-8fc3-357540369be8",
+                    "principalIdDisplayName": "Policy Automation Account",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "b24988ac-6180-42a0-ab88-20f7382dd24c",
