@@ -5,19 +5,19 @@
         "mspOfferName": {
             "type": "string",
             "metadata": {
-                "description": "Absolute Networks Managed Azure"
+                "description": "Specify a unique name for your offer"
             }
         },
         "mspOfferDescription": {
             "type": "string",
             "metadata": {
-                "description": "Absolute Networks Managed Azure"
+                "description": "Name of the Managed Service Provider offering"
             }
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
-                "description": "cfb9654d-0059-4df0-a24c-01779fcc22f4"
+                "description": "Specify the tenant id of the Managed Service Provider"
             }
         },
         "authorizations": {
